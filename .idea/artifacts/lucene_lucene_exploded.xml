@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="lucene:lucene exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/lucene_lucene_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="lucene/web/lucene" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="lucene" />
+        </element>
+      </element>
+      <element id="library" level="project" name="commons-lang-2.6" />
+    </root>
+  </artifact>
+</component>

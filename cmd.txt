@@ -1,0 +1,7 @@
+爬虫命令
+
+wget  -o /tmp/wget.log  -P /root/admin/data1  --no-parent --no-verbose -m -D blog.csdn.net -N --convert-links --random-wait -A html,html http://blog.csdn.net/
+
+wget  -o /tmp/wget.log  -P /root/admin/data1  --no-parent --no-verbose -m -D www.tianfang1314.cn -N --convert-links --random-wait -A html,html http://www.tianfang1314.cn/
+
+tail -f /tmp/wget.log
